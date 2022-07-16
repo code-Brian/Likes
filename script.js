@@ -3,10 +3,6 @@ let neil = document.getElementById('neil');
 let nichole = document.getElementById('nichole');
 let jim = document.getElementById('jim');
 
-/* Query Selectors for p elements in friends posts */
-
-let neilP = document.getElementById('neil-p');
-
 /* Query Selectors for buttons in friends posts */
 let neilBtn = document.getElementById('neil-btn');
 let nicholeBtn = document.getElementById('nichole-btn');
@@ -45,7 +41,7 @@ function addLikeJim() {
 //     if (neil.textContent === '1') {
 //         console.log("singular check returned true");
 //         console.log(neilP.textContent);
-//         neil.textContent = neilP.textContent.substring(0,6);
+//         neilP.textContent = neilP.textContent.substring(0,6);
 //         console.log(neilP.textContent);
 //         return neilP.textContent;
 //     }
